@@ -34,7 +34,7 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Welcome to my portfolio!</h1>
-							<p>My name is Minh Nguyen and I am currently a third year student pursuing a Bachelor Degree in Computer Science at University of Saskatchewan. <br>Throughout my acedemic life, I have developed interests in Artificial Intelligence and Human Computer Interaction. I am also passionate about Astronomy.</br><br>Learn more about my projects I have worked during my academic years below!</br> </p>
+							<p>My name is Minh Nguyen and I am currently a third year student pursuing a Bachelor Degree in Computer Science at University of Saskatchewan. <br>I have developed interests in Artificial Intelligence, Software Development, Game Development and Human Computer Interaction throughout my university life. I also have a strong liking for Astronomy. </br><br>Learn more about my projects I have worked during my academic years below!</br> </p>
 						</div>
 					</section>
 
@@ -59,7 +59,7 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Drawing Application</h2>
-									<p>A basic shape drawing application that is loosely based on Microsoft Paint. There are shape and color toolbars to choose, as well as a mini view that has the same interaction as the main canvas.
+									<p>A basic shape drawing application that is loosely based on Microsoft Paint. There are shape and color toolbars for users to utilize, as well as a mini view that has the same interaction as the main canvas.
 										<br><b>Developed in Java with JavaFX framework, using MVC architecture.</b></br>
 									</p>
 									<ul class="actions">
@@ -74,7 +74,7 @@
 								<div class="inner">
 									<h2>Multicast Messenger</h2>
 									<p>A network of a single server and multiple sender clients/receiver clients, communicating through TCP protocol. A sender sends lines of text to all currently connected receivers, whether from console inputs or redirected files.
-										<br><b>Developed in C with POSIX thread library.</b></br>
+										<br><b>Developed in C with POSIX pthread library.</b></br>
 									</p>
 									<ul class="actions">
 										<li><a href="https://github.com/MinhNguyen4958/Multicast-Messenger" class="button">Check my repo!</a></li>
@@ -82,7 +82,27 @@
 								</div>
 							</div>
 						</section>
+						<section>
+							<a class="image"><img src="images/GroomingStation.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Grooming Station</h2>
+									<p>This assignment aims to fix a synchronization problem using mutexes and condition variables provided by the POSIX pthread library. A pet grooming facility has fixed amount of grooming stations, at each of which a single pet can be groomed at a time. 
+										<br> The owner imposes 4 rules on concurrency: </br>
+										<br>  1. Cats and dogs should never be in grooming stations at the same time. </br>
+										<br>  2. Only one pet can be occupying a grooming station at a time. </br>
+										<br>  3. Niether cat nor dogs nor other pets should wait indefinitely to be groomed. </br>
+										<br>  4. Concurrency solution must be efficient. </br>
+										<br><b>Developed in C with POSIX pthread library.</b></br>
+									</p>
+									<ul class="actions">
+										<li><a href="https://github.com/MinhNguyen4958/PetGroomingFacility" class="button">Check my repo!</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
 					</section>
+					
 
 				<!-- two -->
 					<section id="two" class="wrapper style3 fade-up">
@@ -90,25 +110,25 @@
 							<section>
 								<ul class="contact">
 									<li>
-										<h3>	Address</h3>
-										<span>	Saskatoon, SK<br />
+										<h3>Address</h3>
+										<span>Saskatoon, SK<br />
 										</span>
 									</li>
 									<li>
-										<h3>	Email</h3>
-										<a href="mailto:thn649@mail.usask.ca">	thn649@mail.usask.ca</a>
+										<h3>Email</h3>
+										<a href="mailto:thn649@mail.usask.ca">thn649@mail.usask.ca</a>
 										<h3>Alternative email</h3>
-										<a href="mailto:minhnguyen4958@gmail.com">	minhnguyen4958@gmail.com</a>
+										<a href="mailto:minhnguyen4958@gmail.com">minhnguyen4958@gmail.com</a>
 									</li>
 									<li>
-										<h3>	Phone</h3>
-										<span>	(639)-384-7357</span>
+										<h3>Phone</h3>
+										<span>(639)-384-7357</span>
 									</li>
 									<li>
 										<h3>	Social</h3>
 										<ul class="icons">
-											<li><a href="https://github.com/MinhNguyen4958" class="icon brands fa-github"><span class="label">	GitHub</span></a></li>
-											<li><a href="https://www.linkedin.com/in/minhnguyen4958/" class="icon brands fa-linkedin-in"><span class="label">	LinkedIn</span></a></li>
+											<li><a href="https://github.com/MinhNguyen4958" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+											<li><a href="https://www.linkedin.com/in/minhnguyen4958/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 										</ul>
 									</li>
 								</ul>
